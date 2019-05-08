@@ -1,0 +1,25 @@
+- (f)open      - getline         - fork      
+- (f)close     - malloc          - getpid    
+- (f)read      - free            - execve    
+- opendir      - write           - isatty    
+- readdir      - perror          - wait(3)(4)
+- closedir     - strerror        - getpwuid
+- stat                           - getgrgid
+- fstat                          - kill
+- lstat
+- access
+- getcwd
+- chdir
+
+
+- ioctl        - signal          - (s)rand
+- usleep       - strsignal       - getopt(_long)
+- lseek        - sigaction       - clock
+- readlink     - sigemptyset
+- nanosleep    - setcontext
+- exit         - getcontext
+- time         - pause
+- ctime
+
+
+- lib ncurses
