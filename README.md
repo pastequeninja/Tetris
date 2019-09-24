@@ -1,8 +1,9 @@
 # Tetris
-PSU projet
 
-Projet réalisé dans le module PSU
- - Interface graphique
- - Tout les flags gérés
+- ✅ Reçoit des pièces '*' en fichier texte
+- ✅ Contrôles avec les term caps
+- ✅ Paramètres en forme de flags
+- ✅ Les pièces rotate
+- ✅ Condition de défaite
  
-# Obtention grade A
+# Obtention grade A 💃
