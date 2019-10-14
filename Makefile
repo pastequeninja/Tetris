@@ -59,9 +59,9 @@ MY	=	-lmy
 
 NCURSES	=	-lncurses
 
-CC	=	gcc
+CC	=	cl.exe
 
-MAKE	=	make
+LINK = link.exe
 
 RM	=	rm -f
 
@@ -70,15 +70,15 @@ CFLAGS	=	-I include -W -Wall -Wextra
 all: $(NAME)
 
 $(NAME): $(OBJS)
-	$(MAKE) -C lib/my
+	$(LINK) -C lib/my
 	$(CC) -o $(NAME) $(OBJS) $(LIB) $(MY) $(NCURSES)
 
 clean:
-	$(MAKE) clean -C lib/my
+	$(LINK) clean -C lib/my
 	$(RM) $(OBJS)
 
 fclean: clean
-	$(MAKE) fclean -C lib/my
+	$(LINK) fclean -C lib/my
 	$(RM) $(NAME)
 
 debug: CFLAGS += -g
