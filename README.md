@@ -5,5 +5,3 @@
 - ✅ Paramètres en forme de flags
 - ✅ Les pièces tournent
 - ✅ Condition de défaite
-
-# Obtention grade A 💃
